@@ -1,4 +1,4 @@
-# task-tracker# Task Tracker (CRUD)
+# Task Tracker (CRUD)
 
 A simple full-stack task tracker application built to refresh and demonstrate core CRUD operations.
 
