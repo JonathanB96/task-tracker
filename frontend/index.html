@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Task & Habit Tracker</h1>
+
+    <!-- Add Task -->
+    <div class="card p-3 mb-4">
+      <input
+        id="taskInput"
+        class="form-control"
+        placeholder="Enter task title"
+      />
+      <button id="addTaskBtn" class="btn btn-primary mt-2">
+        Add Task
+      </button>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList" class="list-group"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
