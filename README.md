@@ -23,7 +23,7 @@ A simple full-stack task tracker application built to refresh and demonstrate co
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/task-tracker.git
+git clone https://github.com/JonathanB96/task-tracker.git
 cd backend
 npm install
 npm run dev
